@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'deliver.urls'
+ROOT_URLCONF = 'GoodFood.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'deliver.wsgi.application'
+WSGI_APPLICATION = 'GoodFood.wsgi.application'
 
 
 # Database
